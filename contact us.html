@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FounderX</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navigation-bar">
+        <div class="image">
+          <img src="https://joinfounderx.com/wp-content/uploads/2024/06/Group-1000005075.svg" alt="" />
+        </div>
+        <div class="navigation-cantent">
+          <ul>
+            <li><a href="./index.html">why join</a></li>
+            <li><a href="./mentors.html">mentors</a></li>
+            <li><a href="./curriculum.html">curriculum</a></li>
+            <li><a href="./contact us.html">contact us</a></li>
+            <li><a href="./faq.html">faq</a></li>
+            <li><a class="link-button" href="./login.html">lets go it</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <div class="x-container">
+
+      <div class="input-box">
+        <form action="submit_form.php" method="post">
+          <div class="textarea">
+            <div class="text1">
+              <label for="name"> First Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="text1">
+              <label for="name"> Last Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+          </div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="xyz@gmail.com" name="email" required />
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="+91-XXXXXXXXXX" />
+
+          <div class="textarea">
+            <div class="text1">
+              <label for="name"> Designation </label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="text1">
+              <label for="name"> Company name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+          </div>
+          <label>Query Type:</label>
+          <div class="radio-group">
+            <label><input type="radio" name="query_type" value="Speal or Mentor at FounderX" required />
+              Speal or Mentor at FounderX</label>
+            <label><input type="radio" name="query_type" value="Sponsor FounderX" />
+              Sponsor FounderX</label>
+            <label><input type="radio" name="query_type" value="Apply in FounderX" />
+              Apply in FounderX</label>
+            <label><input type="radio" name="query_type" value="Others" />
+              Others</label>
+          </div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button class="link-button4" type="submit">submit</button>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
